@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+.container{
+    width: 360px;
+    height: 379px;
+    background-color: #0B2434;
+    margin: auto;
+    padding: .5rem .25rem .5rem .25rem;
+}
+.board{
+    width: 320px;
+    height: 320px;
+    background-color: #F5F5F5;
+    margin: auto;
+    border-radius: 10px;
+}
