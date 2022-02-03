@@ -4,16 +4,12 @@
 
 body {
     margin: 0;
-}
-.container{
-    width: 360px;
-    height: 379px;
     background-color: #0B2434;
-    margin: auto;
-    padding: .5rem .25rem .5rem .25rem;
+    padding: 20px;
 }
-.board{
-    width: 320px;
+
+main{
+    max-width: 800px;
     height: 320px;
     background-color: #F5F5F5;
     margin: auto;
