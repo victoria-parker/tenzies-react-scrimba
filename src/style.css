@@ -17,6 +17,7 @@ main{
     margin: auto;
     border-radius: 10px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -28,8 +29,8 @@ main{
 .die{
     font-family: 'Karla', sans-serif;
     font-weight: bold;
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 3.8px;
     display: flex;
@@ -37,4 +38,22 @@ main{
     align-items: center;
     cursor: pointer;
     background-color: white;
+}
+.rollButton{
+    background-color: #5035FF;
+    font-family: 'Karla', sans-serif;
+    font-size: 17px;
+    border: none;
+    color: white;
+    box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+    border-radius: 3.8px;
+    width: 100px;
+    height: 50px;
+    padding: 6px;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.rollButton:active {
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }

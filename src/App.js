@@ -15,14 +15,18 @@ export default function App(){
         return arr;
     }
 
-    
+    function roll(){
+        setDice(allNewDice())
+    }
     const diceElements=dice.map((value,index) => <Die key={index} number={value} />)
+
 
     return(
         <main>
             <div className='container'>
             {diceElements}
             </div>
+            <button onClick={roll} className='rollButton'>Roll</button>
         </main>
     )
 }
