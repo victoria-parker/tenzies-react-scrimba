@@ -29,6 +29,10 @@ export default function App(){
         return arr;
     }
 
+    function newGame(){
+        setTenzies(false)
+        setDice(allNewDice())
+    }
     function roll(){
 
         setDice(prevDice => prevDice.map(die => {
@@ -62,7 +66,7 @@ export default function App(){
             <div className='container'>
             {diceElements}
             </div>
-            <button onClick={roll} className='rollButton'>{tenzies ? "New Game" : "Roll"}</button>
+            <button onClick={tenzies ? newGame : roll} className='rollButton'>{tenzies ? "New Game" : "Roll"}</button>
         </main>
     )
 }
